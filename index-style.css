@@ -51,3 +51,42 @@ header{
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.btn-ok {
+    background-color: #28a745; /* Verde */
+    color: white; /* Texto blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px;
+    font-family: Arial, sans-serif; /* Fuente clara y legible */
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.btn-ok:hover {
+    background-color: #218838; /* Color más oscuro al pasar el ratón */
+}
+
+.btn-cancel {
+    background-color: #fc2e2e; /* Rojo */
+    color: white; /* Texto blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px;
+    font-family: Arial, sans-serif; /* Fuente clara y legible */
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.btn-cancel:hover {
+    background-color: #ff0000; /* Color más oscuro al pasar el ratón */
+}
