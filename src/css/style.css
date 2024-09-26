@@ -5,13 +5,10 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-:root{
-    --fancy-gradient: linear-gradient(to bottom, #884ced, #ff70ff)
-  }
 
 header{
     height: 200px;
-    background: var(--fancy-gradient);
+    background: linear-gradient(to bottom, #007dc5, rgb(184, 255, 255));
     display: flex;
     justify-content: center;
 }
